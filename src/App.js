@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
     onLoad();
-  }, []);
+  }, [onLoad]);
   return (
     <div ref={appRef} className="app">
       <h1 ref={numberRef}>{random}</h1>
